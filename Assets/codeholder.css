@@ -1,0 +1,598 @@
+
+
+.Parallax-Bg-asset01 {
+    z-index: 2 ;
+    background-position: center;
+    position: absolute;
+    top: calc(50% - 665px);
+    left: calc(50% - 6px);
+    transform: translate(-50%, -50%);
+    /* opacity: 0.0; */
+
+}
+
+.Parallax_Bg_backdrop {
+    z-index: 3;
+    position: absolute;
+    top: calc(50% - 193px);
+    left: calc(50% - 6px);
+    transform: translate(-50%, -50%);
+    opacity: 0.0; 
+}
+
+.Parallax_Bg_backdrop_pt2 {
+    z-index: 3;
+    width: -5500;   /* Maintain aspect ratio */
+    height: 100%;  /* Full height of the container */
+    transform: scale(0.8); /* Reducing size to 80% of original */
+    transform-origin: center; /* Scales from the center */
+    position: absolute;
+    top: calc(50% - 85px);
+    left: calc(50% - 9px);
+    transform: translate(-50%, -50%);
+    opacity: 0.0; 
+}
+/* both  .Parallax_Bg_backdrop_pt2  and Parallax_Bg_backdrop will need to be parented in javascript most likely.*/
+
+.Parallax_Bg_main_sky {
+    z-index: 4;
+    position: absolute;
+    top: calc(50% - 5px);
+    left: calc(50% + 2px);
+    transform: translate(-50%, -50%);
+    /* opacity: 0.9; */
+
+
+
+}
+
+.Parallax_Bg_forMountains {
+    z-index: 7;
+    position: absolute;
+    top: calc(50% - 199px);
+    left: calc(50% + 156px);
+    transform: translate(-50%, -50%);
+    /* opacity: 0.0;  */
+
+
+}
+
+.Parallax_Bg_mountan_fix {
+    z-index: 7;
+    position: absolute;
+    top: calc(50% - 166px);
+    left: calc(50% + 676px);
+    transform: translate(-50%, -50%);  
+    /* opacity: 0.5; */
+
+
+}
+/* your going to have to parent these 2 together, Parallax_Bg_forMountains and Parallax_Bg_mountan_fix */
+
+.Parallax_Bg_fog_for_right_side_Mt {
+    z-index: 6;
+    position: absolute;
+    top: calc(50% - 155px);
+    left: calc(50% + 607px);
+    transform: translate(-50%, -50%);  
+    /* opacity: 0.9; */
+}
+
+.Parallax_Bg_main_vally_in_center {
+    z-index:10;
+    position: absolute;
+    top: calc(50% - 154px);
+    left: calc(50% + 19px);
+    transform: translate(-50%, -50%);  
+    /* opacity: 0.9; */
+}
+
+.Parallax_center_fog_for_Mountain {
+    z-index: 8;
+    position: absolute;
+    top: calc(50% - 195px);
+    left: calc(50% + 20px);
+    transform: translate(-50%, -50%);    
+    /* opacity: 0.5; */
+}
+
+.Parallax_Bg_mtFix {
+    z-index: 9;
+    position: absolute;
+    top: calc(50% - 166px);
+    left: calc(50% - 327px);
+    transform: translate(-50%, -50%);    
+    /* opacity: 0.9; */
+}
+/* z-index potentaly needs to be reajusted for .Parallax_Bg_mtFix  */
+
+.Parallax_main_fog {
+    z-index: 8;
+    position: absolute;
+    top: calc(50% - 106px);
+    left: calc(50% + 210px);
+    transform: translate(-50%, -50%);    
+    /* opacity: 0.9;   */
+}
+
+/* Midground section */
+
+.Parallax_mg_01 {
+    z-index: 11;
+    position: absolute;
+    top: calc(50% + 184px);
+    left: calc(50% - 2.5px);
+    transform: translate(-50%, -50%);    
+    /* opacity: 0.9;   */
+}
+
+.Parallax_mg_02 {
+    z-index: 11;
+    position: absolute;
+    top: calc(50% + 0px);
+    left: calc(50% + 1px);
+    transform: translate(-50%, -50%);    
+    /* opacity: 0.9;   */
+}
+
+.Parallax_mg_03 {
+    z-index: 10;
+    position: absolute;
+    top: calc(50% - 63.93px);
+    left: calc(50% + 10.1px);
+    transform: translate(-50%, -50%);    
+    /* opacity: 0.9;   */
+}
+
+.Parallax_mg_04 {
+    z-index: 10;
+    width: 103%;
+    position: absolute;
+    top: calc(50% - 39.37px);
+    left: calc(50% + 232px);
+    transform: translate(-50%, -50%);  
+    /* opacity: 0.9;   */
+}
+
+.Parallax_mg_05 {
+    z-index: 10;
+    position: absolute;
+    top: calc(50% - 100px);
+    left: calc(50% - 620px);
+    transform: translate(-50%, -50%);  
+    /* opacity: 0.9;   */
+}
+
+
+.Parallax_mg_06 {
+    z-index: 11;
+    position: absolute;
+    top: calc(50% + 97px);
+    left: calc(50% + 121px);
+    transform: translate(-50%, -50%);    
+    /* opacity: 0.9;   */
+}
+
+.Parallax_mg_08 {
+    z-index: 11;
+    position: absolute;
+    top: calc(50% - 103px);
+    left: calc(50% + 733px);
+    transform: translate(-50%, -50%);  
+    /* opacity: 0.9;   */
+}
+
+.Parallax_mg_09 {
+    z-index: 10;
+    position: absolute;
+    top: calc(50% - 95px);
+    left: calc(50% + 724px);
+    transform: translate(-50%, -50%);    
+    /* opacity: 0.9;   */
+}
+
+/* both Mg_8 and 9 will have to be parented*/
+
+.Parallax_mg_10 {
+    z-index: 15;
+    position: absolute;
+    top: calc(50% + 55px);
+    left: calc(50% + 564px);
+    transform: translate(-50%, -50%);  
+}
+
+.Parallax_mg_11 {
+        /* will need more refinement */
+        z-index: 15;
+    position: absolute;
+    top: calc(50% + 189px);
+    left: calc(50% + 710px);
+    transform: translate(-50%, -50%);  
+    /* opacity: 0.9; */
+}
+
+.Parallax_mg_12 {
+    /* will need more refinement */
+
+    position: absolute;
+    top: calc(50% + 187px);
+    left: calc(50% + 696px);
+    transform: translate(-50%, -50%);  
+    /* opacity: 0.9; */
+}
+
+
+/*  Foreground section */
+
+.Parallax_fg_15 {
+    z-index: 11;
+    position: absolute;
+    top: calc(50% + 0px);
+    left: calc(50% - 400px);
+    transform: translate(-50%, -50%);  
+    /* opacity: 0.9;   */
+}
+
+.Parallax_fg_16 {
+    z-index: 13;
+    position: absolute;
+    top: calc(50% + 165px);
+    left: calc(50% - 369px);
+    transform: translate(-50%, -50%);  
+    /* opacity: 0.9; */
+}
+
+.Parallax_fg_17 {
+    z-index: 12;
+    position: absolute;
+    top: calc(50% + 165px);
+    left: calc(50% - 469px);
+    transform: translate(-50%, -50%);  
+
+
+}
+
+.Parallax_fg_18 {
+    z-index: 14;
+    position: absolute;
+    top: calc(50% + 506px);
+    left: calc(50% + 345px);
+    transform: translate(-50%, -50%);  
+/* opacity: 0.9; */
+}
+
+/* .Parallax_fg_19 */
+
+.Parallax_fg_20 {
+    z-index: 14;
+    position: absolute;
+    top: calc(50% + 423px);
+    left: calc(50% + 715px);
+    transform: translate(-50%, -50%);  
+/* opacity: 0.9;   */
+}
+
+/* .Parallax_fg_21 {
+    z-index: 14;
+    position: absolute;
+    top: calc(50% + 158px);
+    left: calc(50% + 353px);
+    transform: translate(-50%, -50%);   
+} */
+
+
+
+
+
+
+/*    2ND VERSE CODE, THIS ONE IS A BIT BROKEN FROM THE WINDOWS TO MAC */
+
+
+.full-overlay {
+    z-index: 1 !important; /* remove this once everything is done */ 
+    opacity: 0.44;
+}
+
+/* Adjust the width and height of all parallax images to ensure they fit */
+.parallax-container img {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.Parallax {
+    position: absolute;
+}
+
+/* Further adjustments to specific images if needed */
+.Parallax-Bg-asset01 {
+    z-index: 1 ;
+    height: 80%;
+    position: absolute;
+    top: calc(50% - 651px);
+    left: calc(50% - 6px);
+    transform: translate(-50%, -50%);
+    opacity: 0.99;
+
+}
+
+.Parallax_Bg_backdrop {
+    /* may need to come back to see if the top left needs to be ajusted */
+    z-index: 0;
+    position: absolute;
+    top: calc(50% - 175px);
+    left: calc(50% + 1px);
+    transform: translate(-50%, -50%);
+    opacity: 0.0;
+
+}
+
+.Parallax_Bg_backdrop_pt2 {
+    z-index: 1;
+    position: absolute;
+    top: calc(50% + 402px);
+    left: calc(50% - 153px);
+    transform: translate(-50%, -50%);
+    opacity: 0.0; 
+
+}
+
+.Parallax_Bg_main_sky {
+    z-index: 4;
+    position: absolute;
+    top: calc(50% + 07px);
+    left: calc(50% + 2px);
+    transform: translate(-50%, -50%);
+    opacity: 0.99;
+
+}
+
+.Parallax_Bg_forMountains {
+    z-index: 5;
+    position: absolute;
+    top: calc(50% - 155px);
+    left: calc(50% + 121px);
+    transform: translate(-50%, -50%);
+    opacity: 0.99;
+}
+
+.Parallax_Bg_mountan_fix {
+    /* this is the small piece of mountain on te right side of screen */
+    z-index: 7;
+    position: absolute;
+    top: calc(50% - 132px);
+    left: calc(50% + 512px);
+    transform: translate(-50%, -50%);
+    opacity: 0.99;
+
+}
+
+.Parallax_Bg_fog_for_right_side_Mt {
+    z-index: 6;
+    position: absolute;
+    top: calc(50% - 155px);
+    left: calc(50% + 607px);
+    transform: translate(-50%, -50%); 
+    opacity: 0.0;
+
+}
+
+.Parallax_Bg_main_vally_in_center {
+    z-index:10;
+    position: absolute;
+    top: calc(50% - 153px);
+    left: calc(50% + 52px);
+    transform: translate(-50%, -50%);
+    opacity: 0.99;
+
+}
+
+.Parallax_center_fog_for_Mountain {
+    /* comeback to once basic layers are complete */
+    z-index: 8;
+    position: absolute;
+    top: calc(50% - 195px);
+    left: calc(50% + 20px);
+    transform: translate(-50%, -50%);
+    opacity: 0.0;
+}
+
+.Parallax_Bg_mtFix {
+    /* again come back to */
+    z-index: 9;
+    position: absolute;
+    top: calc(50% - 566vh);
+    left: calc(50% - 127px);
+    transform: translate(-50%, -50%);
+    opacity: 0.99;
+}
+
+.Parallax_main_fog {
+    z-index: 8;
+    position: absolute;
+    top: calc(50% - 106px);
+    left: calc(50% + 210px);
+    transform: translate(-50%, -50%);
+    opacity: 0.0;
+}
+
+/* Midground section */
+
+
+.Parallax_mg_01 {
+    z-index: 11;
+    position: absolute;
+    top: calc(50% + 101px);
+    left: calc(50% + 40px);
+    transform: translate(-50%, -50%);
+    opacity: 0.99;
+
+}
+
+.Parallax_mg_02 {
+    z-index: 11;
+    position: absolute;
+    top: calc(50% + 0px);
+    left: calc(50% + 1px);
+    transform: translate(-50%, -50%);
+    opacity: 0.0;
+
+}
+
+.Parallax_mg_03 {
+    z-index: 12;
+    position: absolute;
+    top: calc(50% - 80.97px);
+    left: calc(50% + 46.58px);
+    transform: translate(-50%, -50%);
+    opacity: 0.99;
+
+}
+
+.Parallax_mg_04 {
+    /* may come back because of adding the person */
+    z-index: 12;
+    position: absolute;
+    top: calc(50% - 63.00vh);
+    left: calc(50% + 214vh);
+    transform: translate(-50%, -50%)
+    ;opacity: 0.99;
+
+}
+
+.Parallax_mg_05 {
+    z-index: 11;
+    position: absolute;
+    top: calc(50% - 90px);
+    left: calc(50% - 469px);
+    transform: translate(-50%, -50%);
+    opacity: 0.99;
+
+}
+
+.Parallax_mg_06 {
+    z-index: 11;
+    position: absolute;
+    top: calc(50% + 37.0px);
+    left: calc(50% + 127.7px);
+    transform: translate(-50%, -50%);
+    opacity: 0.99;
+}
+
+.Parallax_mg_07 {
+    z-index: 11;
+    position: absolute;
+    top: calc(50% + 37.0px);
+    left: calc(50% + 127.7px);
+    transform: translate(-50%, -50%);
+    opacity: 0.99;
+}
+
+.Parallax_mg_08 {
+    z-index: 11;
+    position: absolute;
+    top: calc(50% - 99.9px);
+    left: calc(50% + 564px);
+    transform: translate(-50%, -50%);
+    opacity: 0.99;
+
+}
+/* fghj */
+
+.Parallax_mg_09 {
+    z-index: 10;
+    position: absolute;
+    top: calc(50% - 85px);
+    left: calc(50% + 550px);
+    transform: translate(-50%, -50%); 
+    opacity: 0.99;
+}
+
+/* Both Mg_8 and 9 will have to be parented */
+.Parallax_mg_10 {
+    z-index: 15;
+    position: absolute;
+    top: calc(50% + 55px);
+    left: calc(50% + 764px);
+    transform: translate(-50%, -50%);
+    opacity: 0.0;
+}
+
+.Parallax_mg_11 {
+    z-index: 15;
+    position: absolute;
+    top: calc(50% + 118px);
+    left: calc(50% + 548px);
+    transform: translate(-50%, -50%); 
+    opacity: 0.99;
+}
+
+.Parallax_mg_12 {
+    position: absolute;
+    top: calc(50% + 187px);
+    left: calc(50% + 696px);
+    transform: translate(-50%, -50%);
+    opacity: 0.99;
+}
+
+/* Foreground section */
+
+.Parallax_fg_15 {
+    z-index: 11;
+    position: absolute;
+    top: calc(50% - 2vh);
+    left: calc(50% - 46vh);
+    transform: translate(-50%, -50%);
+    opacity: 0.99;
+}
+
+.Parallax_fg_16 {
+    z-index: 13;
+    position: absolute;
+    top: calc(50% + 165px);
+    left: calc(50% - 369px);
+    transform: translate(-50%, -50%);
+    opacity: 0.99;
+
+}
+
+.Parallax_fg_17 {
+    z-index: 12;
+    position: absolute;
+    top: calc(50% + 109px);
+    left: calc(50% - 51vh);
+    transform: translate(-50%, -50%);  
+    opacity: 0.99;
+
+}
+
+.Parallax_fg_18 {
+    z-index: 14;
+
+    position: absolute;
+    top: calc(50% + 359vh);
+    left: calc(50% + 305vh);
+    transform: translate(-50%, -50%);  
+    opacity: 0.99;
+
+/* opacity: 0.9; */}
+
+.Parallax_fg_20 {
+    z-index: 14;
+    position: absolute;
+    top: calc(50% + 303px);
+    left: calc(50% + 549px);
+    transform: translate(-50%, -50%); 
+    opacity: 0.99;
+
+}
+
+.Parallax_fg_21 {
+    z-index: 14;
+    position: absolute;
+    top: calc(50% + 158px);
+    left: calc(50% + 353px);
+    transform: translate(-50%, -50%);  
+opacity: 0.0;
+}

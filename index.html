@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lucas Richards | Filmmaker and Editor</title>
+    <link rel="stylesheet" href="Assets/css/styles.css"> <!-- Link to CSS file -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Serif:ital,opsz,wght@0,8..144,100..900;1,8..144,100..900&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <!-- //// Navigation Bar //// -->
+    <header> 
+        <nav>
+            <a href="index.html">
+                <img src="Assets/images/RippleFrameLogo.svg" alt="Ripple Frame Studios logo, also the return home button" class="logo">
+            </a>
+            <div class="hamburger" onclick="toggleMenu()"> <!-- Hamburger icon clickable -->
+                <div class="bar"></div>
+            </div>
+            <ul id="nav-links">
+                <li><a href="#">Portfolio</a></li>
+                <li><a href="#">About Me</a></li>
+                <li><a href="#">Blog</a></li>
+                <li><a href="#">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+<main> 
+<!-- there will be 3 deferent types one being the default image two being fog image and third being sun flair and arrays.
+
+Foreground to background for effect to work -->
+<div class="container"> 
+    <div class="parallax-container"> 
+        <!-- <div class="image-overlay-container">
+        <img src="Assets/Hero Image/Images/f137.png" class="full-overlay" alt="Full scene overlay">
+        </div>     -->
+    <!-- Background Layers -->
+<img src="Assets/Hero Image/Images/main_Bg.png" class="Parallax-Bg-asset01 parallax" style="object-fit: cover;">   
+
+<img src="Assets/Hero Image/Images/obj1-sky-and mt-backround-exend.webp" alt="#" class = "Parallax_Bg_backdrop parallax">
+
+<img src="Assets/Hero Image/Images/obj2-sky-backdrop.webp" class="Parallax_Bg_backdrop_pt2 parallax" alt="">
+
+<img src="Assets/Hero Image/Images/obj 3 sky{1}.webp" class="Parallax_Bg_main_sky parallax" alt="">
+
+<img src="Assets/Hero Image/Images/obj 5 mountains in far.webp" class="Parallax_Bg_forMountains parallax" alt="">
+
+<img src="Assets/Hero Image/Images/obj 28 (R)far-Mountans -fix.webp" class="Parallax_Bg_mountan_fix parallax" alt=""> 
+
+<img src="Assets/Hero Image/Images/obj 30 Fog-8-right-far-mountans.webp" class="Parallax_Bg_fog_for_right_side_Mt parallax" alt="">
+
+<img src="Assets/Hero Image/Images/obj 9 (C)Vally.webp" class="Parallax_Bg_main_vally_in_center parallax" alt="">
+
+<img src="Assets/Hero Image/Images/obj 29-center-far-mountans.webp" class="Parallax_center_fog_for_Mountain parallax" alt="">
+
+<img src="Assets/Hero Image/Images/obj 6 mountan fix.webp" class="Parallax_Bg_mtFix parallax" alt="">
+
+<img src="Assets/Hero Image/Images/obj 31 Fog-9-left-far-mountans.webp" class="Parallax_main_fog parallax" alt="">  
+
+
+<<div class="text-parallax">
+    <div class="frame-dream-container">
+        <h1>Frame the Dream</h1>
+    </div>
+    <div class="inspire-journey-container">
+        <h2>Inspire the Journey</h2>
+    </div>
+</div>
+<!-- Midground Layers -->
+
+<img src="Assets/Hero Image/Images/obj 5.5 midground.webp" class="Parallax_mg_01 parallax" alt="">
+
+<img src="Assets/Hero Image/Images/obj 31 Fog-9-left-far-mountans.webp" class="Parallax_mg_02 parallax"alt="">
+
+<img src="Assets/Hero Image/Images/obj 8 (L)Lake.webp" class="Parallax_mg_03 parallax" alt="">
+
+<img src="Assets/Hero Image/Images/obj 10 R-Lake.webp" class="Parallax_mg_04 parallax" alt="">
+
+<img src="Assets/Hero Image/Images/obj 11 (L) Vally-edit-gen-fill.webp" class="Parallax_mg_05 parallax" alt="">
+
+<img src="Assets/Hero Image/Images/obj 19- angel lake.webp" class="Parallax_mg_06 parallax" alt="">
+
+<img src="Assets/Hero Image/Images/obj 21 angel-lake-edit.webp" class="Parallax_mg_07 parallax" alt="">
+
+<img src="Assets/Hero Image/Images/obj 13 (R)FarkerTrees.webp"  class="Parallax_mg_08 parallax"alt="">
+
+<img src="Assets/Hero Image/Images/obj 14 (R)Darker-tree-fix.webp" class="Parallax_mg_09 parallax" alt="">
+
+<img src="Assets/Hero Image/Images/obj 33 Fog 5-tree-far-right-side.webp" class="Parallax_mg_10 parallax" alt="">
+
+<img src="Assets/Hero Image/Images/obj 15 (R) BrighterTree.webp" class="Parallax_mg_11 parallax" alt="">
+
+<img src="Assets/Hero Image/Images/obj 16 (R)Brighter Tree fix.webp" class="Parallax_mg_12 parallax" alt="">
+
+<img src="Assets/Hero Image/Images/obj 34 Fog 4 tree-right-folly.webp"class="Parallax_mg_13 parallax"  alt="">  <!--come back to this-->
+
+<img src="Assets/Hero Image/Images/obj 32 Fog 6-center-vally.webp" class="Parallax_mg_14 parallax" alt="">  <!--come back to this-->
+
+
+    <!-- Foreground Layers -->
+
+<img src="Assets/Hero Image/Images/obj 17 Enhance the selected area by s2.webp" class="Parallax_fg_15 parallax" alt="">
+
+<img src="Assets/Hero Image/Images/obj 36 Fog-1 fully-left-side.webp" class="Parallax_fg_16 parallax" alt="">
+
+<img src="Assets/Hero Image/Images/obj 18 tree.webp"class="Parallax_fg_17 parallax"  alt="">
+
+<img src="Assets/Hero Image/Images/obj 25 brown-rock.webp" class="Parallax_fg_18 parallax" alt="">
+
+<img src="Assets/Hero Image/Images/obj 37 Fog 2-brown-rock.webp" class="Parallax_fg_19 parallax" alt="">
+
+<img src="Assets/Hero Image/Images/obj 26 gray-rock.webp" class="Parallax_fg_20 parallax"  alt="">
+
+<img src="Assets/Hero Image/Images/obj 27 Lucas.webp" class="Parallax_fg_21 parallax" alt="">
+
+<img src="Assets/Hero Image/Images/obj 38 Fog-lucas.webp" class="Parallax_fg_22 parallax" alt=""> 
+
+
+
+
+<img src="Assets/Hero Image/Images/lense-flair.png" class ="Static_sun_flair" alt="">
+<img src="Assets/Hero Image/Images/obj 40 light-ray1.webp" class ="Static_lightray1" alt="">
+<img src="Assets/Hero Image/Images/obj 41 light-ray1 copy.webp" class ="Static_lightRay2 alt="">
+<img src="Assets/Hero Image/Images/obj 42 light-ray2.webp" class ="Static_lightRay3 alt="">
+</div>
+</div> 
+
+
+
+
+
+
+</main>
+    <section id="showreel">
+        <div class="container">
+            <h2>My Showreel</h2>
+            <video controls autoplay muted loop>
+                <source src="path/to/your/showreel.mp4" type="video/mp4">
+                Your browser does not support the video tag.
+            </video>
+            <p>Explore the dynamic range of my filmmaking and video editing skills through my selected projects.</p>
+            <a href="#portfolio" class="cta-button">View My Portfolio</a>
+        </div>
+    </section>
+
+
+
+
+
+
+
+    <!-- Link to JavaScript file -->
+    <script src="Assets/js/scripts.js"></script>
+</body>
+</html>
